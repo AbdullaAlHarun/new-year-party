@@ -257,3 +257,49 @@ header {
   width: 140px;
   padding-top: 43px;
 }
+
+.gift {
+    margin-top: 150px;
+}
+
+.gift-sub-title {
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+padding-bottom: 16px; 
+}
+
+.gift-title {
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+padding-bottom: 22px; 
+}
+
+.gift-description {
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+padding-bottom: 48px; 
+}
+
+.gift-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:24px;
+}
+
+.gift-item-container {
+    padding-bottom: 24px;
+    transition: 2s;
+}
+
+
+.gift-item-container img:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
