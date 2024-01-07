@@ -67,12 +67,63 @@ header {
 }
 
 .offer-image {
-    height: 500px;
-    width: 800px;
-    margin-left: 260px;
-    margin-top: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 70px;
+  height: 500px;
+  width: 800px;
+  margin-left: 260px;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+/*Welcome Section Style */
+.welcome {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../assets/images/2024-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  min-height: 600px;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+}
+
+.wellcome-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  padding-top: 126px;
+}
+
+.welcome-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 24px;
+}
+
+.join-btn {
+  background-color: #f00;
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 5px;
+  margin-top: 48px;
+  margin-left: 32px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.right-side img {
+  padding-top: 68px;
+  padding-right: 38px;
 }
