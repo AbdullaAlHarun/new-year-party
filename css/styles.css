@@ -258,8 +258,75 @@ header {
   padding-top: 43px;
 }
 
-.gift {
-  margin-top: 150px;
+/*Holiday Sale Section*/
+.holiday-sub-title {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.holiday-title {
+  margin-top: 16px;
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-title span {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 28px;
+}
+
+.discount-container {
+    background: url("../assets/images/bg-hooliday.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 16px 0px 16px 16px;
+  min-height: 600px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.right-discount {
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: 225px;
+    margin-right: 0;
+    width: 40%;
+}
+
+.middle-discount {
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 190px;
+    margin-left: 18%;
+}
+
+.left-discount img {
+    width:80%;
+    height: 600px;
+    margin-left: 50px;
+}
+
+/*Best Gift Section*/
+.gift,
+.holiday {
+  margin-top: 120px;
 }
 
 .gift-sub-title {
@@ -310,7 +377,7 @@ header {
 
 /*Subscribe Newsletter Styles */
 .subscribe {
-  margin-top: 150px;
+  margin-top: 120px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
 }
@@ -338,98 +405,97 @@ header {
 }
 
 .subscribe-description {
-    color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-size: 20px;
-font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .subscribe form {
-    width: 90%;
-    max-width: 600px;
-    height: 72px;
-    background: white;
-    margin: auto;
-    display:  flex;
-    align-items: center;
-    border-radius: 40px;
-    margin-top: 40px;
-    margin-bottom: 80px;
+  width: 90%;
+  max-width: 600px;
+  height: 72px;
+  background: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .subscribe form input {
-    flex: 1;
-    padding:  20px 30px;
-    font-size: 16px;
-    border:0;
-    outline: 0;
-    background: transparent;
+  flex: 1;
+  padding: 20px 30px;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  background: transparent;
 }
 
 .subscribe form .btn {
-    padding: 0;
-    width: 210px;
-    height: 72px;
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    border: 0; 
+  padding: 0;
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
 }
 
 .subscribe form input::placeholder {
-    font-size: 16px;
-    color: rgba(7, 2, 17, 0.30);
-    font-size: 18px;
-    font-weight: 400;
+  font-size: 16px;
+  color: rgba(7, 2, 17, 0.3);
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /*footer Section*/
 footer {
-    padding: 0 140px;
-    background: #070211;
+  padding: 0 140px;
+  background: #070211;
 }
 
 footer p {
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 500;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-footer>hr {
-    background: rgba(255, 255, 255, 0.15);
+footer > hr {
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .footer-top-container {
-    display: flex;
-    justify-content: space-between;
-    display: center;
-    padding-top: 120px;
-    padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  display: center;
+  padding-top: 120px;
+  padding-bottom: 50px;
 }
 
 .social-link-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-link-container ul {
-    list-style: none;
+  list-style: none;
 }
 
 .social-link-container li {
-    display: inline-block;
-    padding: 48px 0;
-    margin-left: 24px;
+  display: inline-block;
+  padding: 48px 0;
+  margin-left: 24px;
 }
 
 .footer-bottom-container {
-    display: flex;
-    justify-content: space-between;
-    display: center;
-    padding-top: 50px;
-    padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  display: center;
+  padding-top: 50px;
+  padding-bottom: 120px;
 }
